@@ -1,0 +1,15 @@
+body, nav {
+    background-image: url(../img/cool-background.svg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.h-title {
+    color:rgb(165, 165, 165);
+}
+
+.img-body {
+    border-radius: 5px;
+}
