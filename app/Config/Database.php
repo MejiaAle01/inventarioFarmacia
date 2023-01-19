@@ -32,15 +32,15 @@ class Database extends Config
      */
     public $default = [
         /**
-         * PDO PostgreSQL
-         * Para conectar con PDO usas las instrucción tal y como lo haces siempre host, port, dbname, user, pass
+         * PDO
+         * Para conectar con PDO usas las instrucción tal y como lo haces siempre host, port, dbname, user, pass todo en el DSN
         */
-        'DSN'      => 'pgsql:host=localhost;port=5432;dbname=inventario;user=alejandro;password=Alemani401',
+        'DSN'      => '',
         'hostname' => 'localhost',
         'username' => '',
         'password' => '',
-        'database' => 'inventario',
-        'DBDriver' => 'Postgre',
+        'database' => 'xxxxxxxxx',
+        'DBDriver' => 'xxxxxxxxx',
         'DBPrefix' => '',
         'pConnect' => false,
         'DBDebug'  => (ENVIRONMENT !== 'development'),
